@@ -1,0 +1,12 @@
+.venv/
+node_modules/
+__pycache__/
+data/raw/*.parquet
+data/raw/**/*.parquet
+data/raw/*.gz
+data/raw/*.zip
+data/processed/alerts_clean.csv
+.ipynb_checkpoints/
+.vscode/
+work/
+assets/mbta-subway-map-reference.png

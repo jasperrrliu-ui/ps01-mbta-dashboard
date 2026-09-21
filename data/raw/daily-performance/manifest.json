@@ -1,0 +1,635 @@
+{
+  "retrieved_at_utc": "2026-09-21T02:14:34.942080+00:00",
+  "files": [
+    {
+      "service_date": "2026-06-22",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-22-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-22.parquet",
+      "bytes": 1672832,
+      "sha256": "78bb5c1763d2c6e633a97666766e103f2b635029e0799214a7acf3356d15d715"
+    },
+    {
+      "service_date": "2026-06-23",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-23-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-23.parquet",
+      "bytes": 1665493,
+      "sha256": "3fbaa28d447acd4671e99c6775d1a2fe1aa385ca33d4770eca15faf32f08746e"
+    },
+    {
+      "service_date": "2026-06-24",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-24-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-24.parquet",
+      "bytes": 1661892,
+      "sha256": "400bd5e6cb1bb0a98e5acfefc7c2083f0139dc91d2b84a9b6414fe8ae02dab50"
+    },
+    {
+      "service_date": "2026-06-25",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-25-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-25.parquet",
+      "bytes": 1615260,
+      "sha256": "08b0e1fa313563aefdf9e1bd38f33d6fb11fa4181494a90132d3b8f7113175db"
+    },
+    {
+      "service_date": "2026-06-26",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-26-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-26.parquet",
+      "bytes": 1648092,
+      "sha256": "87fff0ea9951668548940dfe21e3716c39490d33392d368bd5a9f7492e2d0201"
+    },
+    {
+      "service_date": "2026-06-27",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-27-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-27.parquet",
+      "bytes": 1291643,
+      "sha256": "5fa1be4f9550913a40ee09fd49e823b364ea9278a7794caee5d2076cd8260826"
+    },
+    {
+      "service_date": "2026-06-28",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-28-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-28.parquet",
+      "bytes": 1209769,
+      "sha256": "d7628d227bc0f32d236d07ebf84287ecb37a15a0d40d143da16b6b43f2e2de69"
+    },
+    {
+      "service_date": "2026-06-29",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-29-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-29.parquet",
+      "bytes": 1633506,
+      "sha256": "3a7414513e24248ed9cda6cc1e55cfbf97997c423799607dd40660bca46c99b0"
+    },
+    {
+      "service_date": "2026-06-30",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-06-30-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-06-30.parquet",
+      "bytes": 1619379,
+      "sha256": "5a6355c274babc556ad0f3e8ca117ecfd0e5070fd2cf8f91a69eaa3791ddeb49"
+    },
+    {
+      "service_date": "2026-07-01",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-01-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-01.parquet",
+      "bytes": 1569012,
+      "sha256": "1d9c7545222cfda13789402b4b4c2431461b98a7edd34242523a94182f6b5e0a"
+    },
+    {
+      "service_date": "2026-07-02",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-02-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-02.parquet",
+      "bytes": 1539296,
+      "sha256": "d81c55d1bbd03b423577bc898ae83b10e635c18c3b8221a4573cb54787abdc55"
+    },
+    {
+      "service_date": "2026-07-03",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-03-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-03.parquet",
+      "bytes": 1261500,
+      "sha256": "bd66f763daba28ae686809f1f637299d0f1e2ed90f5b7c776bbde6f5311260ad"
+    },
+    {
+      "service_date": "2026-07-04",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-04-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-04.parquet",
+      "bytes": 1470958,
+      "sha256": "201980eb646622f38366f3051a3e3a4626ad58a3a006787a0a1d6e6fca3b9adf"
+    },
+    {
+      "service_date": "2026-07-05",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-05-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-05.parquet",
+      "bytes": 1172485,
+      "sha256": "c4ed1ca2b2203d4f25b05b8873b794959fa53c5308b8947801afac1c619b7d53"
+    },
+    {
+      "service_date": "2026-07-06",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-06-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-06.parquet",
+      "bytes": 1586152,
+      "sha256": "e66cb0ad006b85d090023fad1610831adfc6c0976f238345158cf1999b3b01db"
+    },
+    {
+      "service_date": "2026-07-07",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-07-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-07.parquet",
+      "bytes": 1561467,
+      "sha256": "c02ee370cf477a66c240de2891153441becb219dfeaf55889126b17752cf390f"
+    },
+    {
+      "service_date": "2026-07-08",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-08-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-08.parquet",
+      "bytes": 1575611,
+      "sha256": "37537a3061f08f6d025c2d2b950414a987d0997ae2c0586cd24f1425e2be10e3"
+    },
+    {
+      "service_date": "2026-07-09",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-09-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-09.parquet",
+      "bytes": 1594051,
+      "sha256": "e1043baa85d5fb293a314cd38e8f4b4c1a46116f7f16b8f24b67f5476889ba15"
+    },
+    {
+      "service_date": "2026-07-10",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-10-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-10.parquet",
+      "bytes": 1582372,
+      "sha256": "e5b843d64e8deb040a2ce9521893ebb551c065ca566dda7f028a078a7b1998a6"
+    },
+    {
+      "service_date": "2026-07-11",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-11-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-11.parquet",
+      "bytes": 1377096,
+      "sha256": "122c2a81405477d582186788e177d9d5b75bb1665439a6d90837be714a5a3777"
+    },
+    {
+      "service_date": "2026-07-12",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-12-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-12.parquet",
+      "bytes": 1168822,
+      "sha256": "57d0d888510c0783f3040cb27739770808f0d9a1e64c7fdfdaffd6a0bf2fa014"
+    },
+    {
+      "service_date": "2026-07-13",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-13-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-13.parquet",
+      "bytes": 1623879,
+      "sha256": "433a59668474fc9bfe73897b8ed7c759d7276975f6545918f1918be201685201"
+    },
+    {
+      "service_date": "2026-07-14",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-14-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-14.parquet",
+      "bytes": 1561786,
+      "sha256": "4f448fd70c22aef7314cc91c181e54e90aeef83d517c137ca26b0540f2df0f31"
+    },
+    {
+      "service_date": "2026-07-15",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-15-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-15.parquet",
+      "bytes": 1644682,
+      "sha256": "f7376ebd385ceaf597cd6dea0d3b0e666c6e4161b03fbf0a269d62fa0b6d265f"
+    },
+    {
+      "service_date": "2026-07-16",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-16-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-16.parquet",
+      "bytes": 1577981,
+      "sha256": "3889e6df65aef3944afa3d31c1087af2ad9d0a05b7bb4503b486e5343fa9e38a"
+    },
+    {
+      "service_date": "2026-07-17",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-17-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-17.parquet",
+      "bytes": 1556253,
+      "sha256": "7e7527f92a3aaa68f5e1196c3e9f90d6349ef9ecd075e64ae494e3786adf738a"
+    },
+    {
+      "service_date": "2026-07-18",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-18-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-18.parquet",
+      "bytes": 1270555,
+      "sha256": "bcae953dd24f2bb23d737d09f619bf7fbf28ec555eead5e7ba88e42b8410cc74"
+    },
+    {
+      "service_date": "2026-07-19",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-19-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-19.parquet",
+      "bytes": 1194243,
+      "sha256": "5d6b2b5f9469fd56de6534217ca00e31d7f7b68f45c810fc0b83eed38a60f585"
+    },
+    {
+      "service_date": "2026-07-20",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-20-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-20.parquet",
+      "bytes": 1539926,
+      "sha256": "43274546f9b6a535a0d6dd7b0116bbe4f3f45bea666db2593e5f5a0ddd0f9f40"
+    },
+    {
+      "service_date": "2026-07-21",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-21-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-21.parquet",
+      "bytes": 1402973,
+      "sha256": "ad4c15636433804db4444c4f6bf4fe749e02f2437c1b8447f7c2189fa9fc3904"
+    },
+    {
+      "service_date": "2026-07-22",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-22-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-22.parquet",
+      "bytes": 1405593,
+      "sha256": "d63d7853f4ff24221866d9d7848bdb396b0103237b699b19747172e0e70a8120"
+    },
+    {
+      "service_date": "2026-07-23",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-23-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-23.parquet",
+      "bytes": 1402114,
+      "sha256": "97951e2339830f4a6cbd8dc9963b293896ead1abb656a3007858f87d831aa188"
+    },
+    {
+      "service_date": "2026-07-24",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-24-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-24.parquet",
+      "bytes": 1325862,
+      "sha256": "d4468c7e671a85dc3fce68e38f01bd8e538f8594fd7b17e8f8fbf71951fe1cdb"
+    },
+    {
+      "service_date": "2026-07-25",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-25-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-25.parquet",
+      "bytes": 1117942,
+      "sha256": "55bbf214dc3244bb74574f6c9656ff546b58eb3aa17ae9de6d7b6a05873542ac"
+    },
+    {
+      "service_date": "2026-07-26",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-26-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-26.parquet",
+      "bytes": 1061601,
+      "sha256": "303af58770c0b24dfd34690e3624536c46f3a1a1f59586d632948b85a8f6e86d"
+    },
+    {
+      "service_date": "2026-07-27",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-27-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-27.parquet",
+      "bytes": 1460088,
+      "sha256": "2792904128e12bf74d346281cce111076a3d80abe0e1baeac9d14c5cba2bb9b3"
+    },
+    {
+      "service_date": "2026-07-28",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-28-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-28.parquet",
+      "bytes": 1417439,
+      "sha256": "e8f046ce29fc0dd97de020d97affc1693b9c013ca9b14c4162e03eefa6524fe0"
+    },
+    {
+      "service_date": "2026-07-29",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-29-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-29.parquet",
+      "bytes": 1424224,
+      "sha256": "5274b1f6910ec30c8833b1099a9a38bb2538dd94aca430bef4955679e63e8323"
+    },
+    {
+      "service_date": "2026-07-30",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-30-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-30.parquet",
+      "bytes": 1389141,
+      "sha256": "50bc0aa5b8dc26583357fff5eeef477d92b6836a10dbf6cd736b64ae9c683cb2"
+    },
+    {
+      "service_date": "2026-07-31",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-07-31-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-07-31.parquet",
+      "bytes": 1494167,
+      "sha256": "664bcff77bb3d2e900154af45cb85b27f29617875080b7616ae61469d8396c8e"
+    },
+    {
+      "service_date": "2026-08-01",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-01-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-01.parquet",
+      "bytes": 931868,
+      "sha256": "c908ff04bc454693bfd44c2a6b6179131401d0c56b802595feb620ba25b95f75"
+    },
+    {
+      "service_date": "2026-08-02",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-02-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-02.parquet",
+      "bytes": 844205,
+      "sha256": "d7fe980b5bf80dc48d86a822bfc4a491e9c671ee591ee6531ea47b83d461d4d5"
+    },
+    {
+      "service_date": "2026-08-03",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-03-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-03.parquet",
+      "bytes": 1557530,
+      "sha256": "b04a8a16f7896b9da69df10c0d86009b27e65e551836ace3e33ac0bda94ebd87"
+    },
+    {
+      "service_date": "2026-08-04",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-04-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-04.parquet",
+      "bytes": 1611903,
+      "sha256": "b4742691ac619855620dadea55012af2df8b5da54d018fec0176dcd357e9f17d"
+    },
+    {
+      "service_date": "2026-08-05",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-05-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-05.parquet",
+      "bytes": 1525218,
+      "sha256": "743642ec61c85aff6e798d7c9b167be145cb24e0611a196ef8c680e1d0ab85bb"
+    },
+    {
+      "service_date": "2026-08-06",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-06-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-06.parquet",
+      "bytes": 1534605,
+      "sha256": "80c74f6d26fbef669a6fcaf78d79a9345e8c024658e59c34c9a9c218ea16305e"
+    },
+    {
+      "service_date": "2026-08-07",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-07-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-07.parquet",
+      "bytes": 1437590,
+      "sha256": "c5d78ea872017b88fb710e4acac6080e7020e33dca2c5ef89102003b0fd1a8b6"
+    },
+    {
+      "service_date": "2026-08-08",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-08-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-08.parquet",
+      "bytes": 805615,
+      "sha256": "ada3c783ec070932cde042bff34a9463ecbe3f961372840b065f459cb7a529ba"
+    },
+    {
+      "service_date": "2026-08-09",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-09-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-09.parquet",
+      "bytes": 763166,
+      "sha256": "b7bb82808dc329ce39f9f1397f8989ecbce720a1a5c9aea79156e358f138cbca"
+    },
+    {
+      "service_date": "2026-08-10",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-10-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-10.parquet",
+      "bytes": 1009460,
+      "sha256": "3284900a3a0a74d286396de6c215b6dcb9074dfa733146e5387addd45d6662e0"
+    },
+    {
+      "service_date": "2026-08-11",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-11-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-11.parquet",
+      "bytes": 1046243,
+      "sha256": "f48d9b9c79c8f51e15a177734d3e80af27c0beecbf2a2d5c10749b6606ad57a7"
+    },
+    {
+      "service_date": "2026-08-12",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-12-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-12.parquet",
+      "bytes": 1070702,
+      "sha256": "c647da2eca8fdc67fda2cd9a61e74eeafaccc82b6d11defb72d20271259b9b8a"
+    },
+    {
+      "service_date": "2026-08-13",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-13-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-13.parquet",
+      "bytes": 1057212,
+      "sha256": "7187f011f0fbc9c110eb6f2ca10c8527d803317067021bfd608e10168daf4531"
+    },
+    {
+      "service_date": "2026-08-14",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-14-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-14.parquet",
+      "bytes": 1065956,
+      "sha256": "d8028305b1b1c267199d514fb0da7ae590006647aba114977f7502020b3f822b"
+    },
+    {
+      "service_date": "2026-08-15",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-15-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-15.parquet",
+      "bytes": 816944,
+      "sha256": "1cc5ea20e430ab4766074b98791ed3d3dde3cccf39a3d3ddb6eefc7aea4a9d0e"
+    },
+    {
+      "service_date": "2026-08-16",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-16-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-16.parquet",
+      "bytes": 772174,
+      "sha256": "70ffa9cc7b39795b997ca714241c0ffbcb8474829dd2725c013822947e3c707a"
+    },
+    {
+      "service_date": "2026-08-17",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-17-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-17.parquet",
+      "bytes": 1448578,
+      "sha256": "a69cef1b3c6af94c3a42c41562568f67cffafaadf51d28c85fcc6858c92c3b5e"
+    },
+    {
+      "service_date": "2026-08-18",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-18-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-18.parquet",
+      "bytes": 1352196,
+      "sha256": "ccd64aa2467191ca884f2a886a88e697764d7f74cd562e946345a3e0dd4a3e87"
+    },
+    {
+      "service_date": "2026-08-19",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-19-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-19.parquet",
+      "bytes": 1501290,
+      "sha256": "a47d3bab7652218238f1f3806d2646e252f3668f1cc429ca150b0ea4f7c4f7e0"
+    },
+    {
+      "service_date": "2026-08-20",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-20-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-20.parquet",
+      "bytes": 1332296,
+      "sha256": "b6655fd0af208c2345e0032c550bad5f8397e4ad312509f124fbf9db9d2aa785"
+    },
+    {
+      "service_date": "2026-08-21",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-21-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-21.parquet",
+      "bytes": 1385075,
+      "sha256": "aa74a1a27f4379e9eedc3c83688a808aa3f18202980b3d9768a1a14724587437"
+    },
+    {
+      "service_date": "2026-08-22",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-22-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-22.parquet",
+      "bytes": 1094714,
+      "sha256": "000abcce737940f1f3dcafcd6dc7f7550cca4eb4be4f4334082950c56d53e725"
+    },
+    {
+      "service_date": "2026-08-23",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-23-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-23.parquet",
+      "bytes": 1055022,
+      "sha256": "bbdd933659b0de11fc535ab00436bba54e56ab65dfeff80f536a6abd50713f25"
+    },
+    {
+      "service_date": "2026-08-24",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-24-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-24.parquet",
+      "bytes": 1374523,
+      "sha256": "6921ac1bd34684c6e4af3672ff383d98828fca1995a7814d56466af772f6f8b9"
+    },
+    {
+      "service_date": "2026-08-25",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-25-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-25.parquet",
+      "bytes": 1415744,
+      "sha256": "de08bf23ab20d000d68454869edd6df0463dcfc362a28ad9ced3e149dee0124d"
+    },
+    {
+      "service_date": "2026-08-26",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-26-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-26.parquet",
+      "bytes": 1425506,
+      "sha256": "691cfb4dfae891fd7aba3391ed682c1bccfdb1d4f1b6c7d1e2fc7ab9c9045881"
+    },
+    {
+      "service_date": "2026-08-27",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-27-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-27.parquet",
+      "bytes": 1400732,
+      "sha256": "82d9b707e0c0d064f52f26891b88ef5d73db66f51301e880604bba13f43d55dd"
+    },
+    {
+      "service_date": "2026-08-28",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-28-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-28.parquet",
+      "bytes": 1421260,
+      "sha256": "fe18c8ad26723947307e3d35297164d748b41a48a9931bf7c0623b21167898d7"
+    },
+    {
+      "service_date": "2026-08-29",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-29-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-29.parquet",
+      "bytes": 1126384,
+      "sha256": "69e8edfc7f1328b8eebcbd1ddf247fd1b73f0d3fb981d8cb81637d44ba55856d"
+    },
+    {
+      "service_date": "2026-08-30",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-30-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-30.parquet",
+      "bytes": 1024571,
+      "sha256": "299d53dc2d6c69b6cbcdae5afcc1f7ba672f953b8eae6585aff321e82feab24d"
+    },
+    {
+      "service_date": "2026-08-31",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-08-31-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-08-31.parquet",
+      "bytes": 1666313,
+      "sha256": "7fb4b46630280ae2a8f112c6e3404f272cee9fe1fb3d214dcc9927ce723426a2"
+    },
+    {
+      "service_date": "2026-09-01",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-01-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-01.parquet",
+      "bytes": 1536949,
+      "sha256": "65990b458026cebdfefe64f18729fa0c8b9c9cfd70463ff088585e6098903cc1"
+    },
+    {
+      "service_date": "2026-09-02",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-02-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-02.parquet",
+      "bytes": 1565220,
+      "sha256": "2bc9b2c663fd2a351ab8d5175617e6dd9df39c581f916dbdf644ab2855e1b172"
+    },
+    {
+      "service_date": "2026-09-03",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-03-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-03.parquet",
+      "bytes": 1609144,
+      "sha256": "8f38ec0a21eb9b6ae2b09eb5de0f089935048c959b9cd6966551f376c427753a"
+    },
+    {
+      "service_date": "2026-09-04",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-04-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-04.parquet",
+      "bytes": 1589248,
+      "sha256": "72909c7e96cbd77a297b5671387af4f0ef970f3a4e109e9ad1b18c08064ba80b"
+    },
+    {
+      "service_date": "2026-09-05",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-05-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-05.parquet",
+      "bytes": 1203193,
+      "sha256": "8fffb0572bc3a20294b1cb15ad6a922a0de059b7612a215ffe6e0e3952e0b092"
+    },
+    {
+      "service_date": "2026-09-06",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-06-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-06.parquet",
+      "bytes": 1184997,
+      "sha256": "1d23fd6b4f24368ca1dc99fcae729465be37ca110b014e596f6345ef869bbf78"
+    },
+    {
+      "service_date": "2026-09-07",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-07-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-07.parquet",
+      "bytes": 1171612,
+      "sha256": "b1a2859fffd3eb8b360230cf7a73a6fefa7efe4bb12006d3b7392118000898e7"
+    },
+    {
+      "service_date": "2026-09-08",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-08-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-08.parquet",
+      "bytes": 1619335,
+      "sha256": "3d026d50609b1621b56c9e96fbe5781dd748248ac9433d59f0d50308feb16be5"
+    },
+    {
+      "service_date": "2026-09-09",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-09-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-09.parquet",
+      "bytes": 1631773,
+      "sha256": "e24928d6a0cab3f48faa729660355762f171708172c7abc336c65d24f524647e"
+    },
+    {
+      "service_date": "2026-09-10",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-10-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-10.parquet",
+      "bytes": 1495009,
+      "sha256": "465fa676aca02770f6b7be4537d0dfa62b19aa57a5b307a9c7db435c880a8698"
+    },
+    {
+      "service_date": "2026-09-11",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-11-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-11.parquet",
+      "bytes": 1482497,
+      "sha256": "d7ad9be91f531263f354f4b6d07408d62032a3472aad2898e027bc3b7c1ddee0"
+    },
+    {
+      "service_date": "2026-09-12",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-12-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-12.parquet",
+      "bytes": 1144923,
+      "sha256": "1ab7c0214674c387a03637d67520a202fd94a3a646f54fe8f28393e42a3ddb95"
+    },
+    {
+      "service_date": "2026-09-13",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-13-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-13.parquet",
+      "bytes": 1121064,
+      "sha256": "88e13b90df8cbe6e6eb73923b378c0a31b6034d34e63faf221fd8f24a80a7a61"
+    },
+    {
+      "service_date": "2026-09-14",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-14-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-14.parquet",
+      "bytes": 1458128,
+      "sha256": "44b7fff91efa6c64c867cfc171a5ead78b8e859d6da03e07f538c2dcfe04c060"
+    },
+    {
+      "service_date": "2026-09-15",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-15-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-15.parquet",
+      "bytes": 1593476,
+      "sha256": "ad744ad4a60b4f9ec5d7570d1c7468c6f5091ad0d263bf9b34b1a4452facffcf"
+    },
+    {
+      "service_date": "2026-09-16",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-16-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-16.parquet",
+      "bytes": 1541970,
+      "sha256": "87ffd4998e1880615112b76c34cd4210ec90b1bfeb808e1fda9598bb91277d69"
+    },
+    {
+      "service_date": "2026-09-17",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-17-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-17.parquet",
+      "bytes": 1546228,
+      "sha256": "6ed93ec9a8a46110feba235df15eee60c61e3be094ec01634ddcb84deea0c0c4"
+    },
+    {
+      "service_date": "2026-09-18",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-18-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-18.parquet",
+      "bytes": 1572192,
+      "sha256": "cba9c1a97686b3a32acba8146a28c19754aac0ce884d9d1304bcb640804ece20"
+    },
+    {
+      "service_date": "2026-09-19",
+      "source_url": "https://performancedata.mbta.com/lamp/subway-on-time-performance-v1/2026-09-19-subway-on-time-performance-v1.parquet",
+      "file": "data/raw/daily-performance/2026-09-19.parquet",
+      "bytes": 904415,
+      "sha256": "92a7990998c5ce1e9bb1eb8c1584a1bfda177379dc064658ad2986a6bc999043"
+    }
+  ]
+}

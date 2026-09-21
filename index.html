@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Before You Transfer | MBTA trip risk</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#trip-form">Before You Transfer</a>
+        <p>Historical MBTA travel-time components for a specific trip</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="trip-intro" aria-labelledby="trip-title">
+        <div>
+          <p class="eyebrow">Plan a connection</p>
+          <h1 id="trip-title">Will this transfer hold?</h1>
+          <p>Choose a trip and an arrival hour. See where waiting, riding, and transferring add time.</p>
+        </div>
+        <form id="trip-form" class="trip-form">
+          <label>Start station<select id="planner-origin"></select></label>
+          <label>Destination<select id="planner-destination"></select></label>
+          <label>Enter the system<select id="time-select">
+            <option value="7">7-8 AM</option>
+            <option value="8">8-9 AM</option>
+            <option value="16">4-5 PM</option>
+            <option value="17">5-6 PM</option>
+            <option value="all">All 90 study days</option>
+          </select></label>
+          <button id="plan-trip" type="submit">Show my trip</button>
+        </form>
+      </section>
+
+      <section class="trip-workspace" aria-label="Trip risk map and journey details">
+        <div class="map-panel">
+          <div class="map-panel-header">
+            <div>
+              <p class="eyebrow">Your trip on the T</p>
+              <h2 id="map-title">Loading route</h2>
+            </div>
+            <div class="map-legend"><span class="legend-start"></span> start <span class="legend-station-risk"></span> elevated station risk <span class="legend-transfer"></span> transfer <span class="legend-destination"></span> destination</div>
+          </div>
+          <div id="line-map" class="line-map" aria-label="Interactive MBTA subway map"></div>
+          <p class="map-caption">The map is deliberately muted so your route is the reading layer. Red station rings flag historical vehicle schedule deviation; amber marks a transfer with its measured scheduled-connection result.</p>
+        </div>
+
+        <aside class="journey-panel" aria-live="polite">
+          <div id="journey-summary"></div>
+          <div id="trip-delay-budget"></div>
+          <div class="journey-divider"></div>
+          <div id="connection-risk"></div>
+          <div class="journey-divider"></div>
+          <div id="live-alerts"></div>
+        </aside>
+      </section>
+
+      <section class="decision-section" aria-label="Route comparison and trip guidance">
+        <div id="route-options"></div>
+        <div id="trip-findings"></div>
+      </section>
+
+      <section class="method-strip">
+        <p><strong>What the time estimate means:</strong> observed excess boarding headway, excess in-vehicle travel time, and transfer wait after a three-minute walk. A missed connection means the scheduled outgoing train had already left after the incoming train arrived.</p>
+        <p><strong>Study window:</strong> June 22-September 19, 2026. This 90-day summer snapshot is descriptive, not a year-round calibrated prediction.</p>
+      </section>
+
+      <footer>
+        <span>Sources: <a href="https://performancedata.mbta.com/">MBTA LAMP public data</a> and the <a href="https://www.mbta.com/maps">official MBTA subway map</a>.</span>
+        <span>Data limitations and methods are documented in the project repository.</span>
+      </footer>
+    </main>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
