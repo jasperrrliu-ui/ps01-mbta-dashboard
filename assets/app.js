@@ -173,12 +173,12 @@ async function main() {
   function renderFindings(passengerTime, originName, destinationName) {
     const panel = document.getElementById("trip-findings");
     if (!passengerTime.transfers.length) {
-      panel.innerHTML = `<p class="panel-kicker">What this tells riders</p><h2>A direct trip avoids connection risk</h2><ul class="finding-list"><li>This ${originName} to ${destinationName} trip has no transfer; its historical added time comes from boarding and in-vehicle variation.</li><li>When timing matters, arrive early enough to cover the displayed extra boarding wait rather than budgeting for a transfer.</li></ul>`;
+      panel.innerHTML = `<p class="panel-kicker">What this tells riders</p><h2>A direct trip avoids connection risk</h2><ul class="finding-list"><li>This ${originName} to ${destinationName} trip has no transfer; its historical added time comes from boarding and in-vehicle variation.</li><li><b>Plan:</b> leave at least the displayed expected added time before a time-critical arrival.</li><li><b>Check:</b> review current MBTA notices before departure because this historical sample cannot describe a live train.</li></ul>`;
       return;
     }
     const transferShare = passengerTime.expectedMinutes ? passengerTime.transferMinutes / passengerTime.expectedMinutes : 0;
     const highestMissed = Math.max(...passengerTime.transfers.map((item) => item.missedRate));
-    panel.innerHTML = `<p class="panel-kicker">What this tells riders</p><h2>The transfer is the fragile part</h2><ul class="finding-list"><li>${percent(transferShare)} of this route's historical added time comes after changing lines, rather than while riding.</li><li>For a time-critical arrival, treat the ${percent(highestMissed)} missed-connection rate as a reason to leave earlier or select a lower-risk hour from the reliability chart.</li></ul>`;
+    panel.innerHTML = `<p class="panel-kicker">What this tells riders</p><h2>The transfer is the fragile part</h2><ul class="finding-list"><li>${percent(transferShare)} of this route's historical added time comes after changing lines, rather than while riding.</li><li><b>Plan:</b> leave at least the displayed expected added time before a time-critical arrival.</li><li><b>Compare:</b> test another available hour and prefer the lower missed-connection rate; check current MBTA notices before departure.</li></ul>`;
   }
 
   function renderJourney() {

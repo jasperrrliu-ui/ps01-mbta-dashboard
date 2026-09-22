@@ -16,7 +16,7 @@ The project is for Boston riders and transit advocates. It will not predict an i
 4. Build a responsive dashboard from validated findings.
 5. Publish the site and document methods, limitations, and sources.
 
-See [docs/data-plan.md](docs/data-plan.md) for the data contract.
+See [deliverables/data-plan.md](deliverables/data-plan.md) for the data contract.
 
 ## Sources
 

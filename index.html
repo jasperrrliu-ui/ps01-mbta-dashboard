@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Before You Transfer | MBTA trip risk</title>
+    <meta name="description" content="Explore historical MBTA trip and transfer risk by station, line, and hour." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="stylesheet" href="assets/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
   </head>
@@ -69,9 +71,44 @@
         <p><strong>Study window:</strong> June 22-September 19, 2026. This 90-day summer snapshot is descriptive, not a year-round calibrated prediction.</p>
       </section>
 
+      <section class="evidence-section" aria-labelledby="evidence-title">
+        <div class="evidence-heading">
+          <p class="eyebrow">About the evidence</p>
+          <h2 id="evidence-title">A planning tool for Boston subway riders</h2>
+          <p>This Site helps riders decide when a trip needs extra time and where a transfer may fail. It combines official MBTA stop-performance records with scheduled service; it describes historical conditions rather than predicting a particular train.</p>
+        </div>
+        <div class="evidence-grid">
+          <div>
+            <h3>How to use it</h3>
+            <ol>
+              <li>Compare the same trip across available travel hours.</li>
+              <li>Use the added-time estimate as planning evidence, not a guarantee.</li>
+              <li>Check current MBTA notices before a time-critical departure.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Important limitations</h3>
+            <ul>
+              <li>The 90-day window is a summer snapshot, not a year-round calibration.</li>
+              <li>Transfer estimates assume a three-minute walk and random rider arrival.</li>
+              <li>The data does not measure crowding, weather, rider volume, or causation.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Project materials</h3>
+            <ul class="resource-links">
+              <li><a href="data/analysis/commute-hour-comparison.xlsx" download>Download analysis spreadsheet</a></li>
+              <li><a href="deliverables/methodology.md">Data and methodology note</a></li>
+              <li><a href="deliverables/reflection.md">What the data can and cannot prove</a></li>
+              <li><a href="deliverables/video2579116075.mp4">Watch the recorded presentation</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <span>Sources: <a href="https://performancedata.mbta.com/">MBTA LAMP public data</a> and the <a href="https://www.mbta.com/maps">official MBTA subway map</a>.</span>
-        <span>Data limitations and methods are documented in the project repository.</span>
+        <span>Units: minutes and percent of comparable observed trips. Updated September 20, 2026.</span>
       </footer>
     </main>
     <script src="assets/app.js"></script>

@@ -22,6 +22,10 @@ The trip-time view does not convert a vehicle's late-stop share into passenger d
 
 Red Line had the largest service-impact alert rate in the period, with 141 alerts over 65 dates and 36.0% of comparable stop events more than five minutes late. Blue Line had 131 service-impact alerts over 74 dates and 33.5% of comparable events more than five minutes late. In the two requested commuter windows, Red Line's late-stop share rises from 23.0% in the morning to 43.4% in the evening, while Blue rises from 26.0% to 43.2%. At 8 AM, the combined historical exposure at the Park Street Red/Green transfer is 43.3%. These descriptive measures do not show why the differences occurred.
 
+## Practical recommendations
+
+For a time-critical trip, riders should compare the available hours and leave at least the displayed expected added time. When a route includes a transfer, riders should prefer the hour with the lower measured missed-connection rate and check current MBTA notices before departure. These recommendations use historical averages and do not guarantee the outcome of a live trip.
+
 ## Limitations
 
 MBTA alerts record issues that were published, not every passenger delay. A single alert can affect several stops or routes, and alert text is not a standardized measure of delay duration. Performance records have incomplete or non-comparable observations, which is why the analysis excludes schedule differences outside the stated range. The 90-day window is a summer snapshot, so it is not calibrated for year-round use or for a particular future train. The transfer measure uses a fixed three-minute walk assumption and does not capture an individual rider's platform choice, walking speed, crowding, or intended train. Neither source measures rider volume, weather, construction impacts, or causation.
